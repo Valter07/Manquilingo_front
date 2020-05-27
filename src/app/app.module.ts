@@ -10,6 +10,8 @@ import { TemaListComponent } from './pages/tema-list/tema-list.component';
 import { TemaResultComponent } from './pages/tema-result/tema-result.component';
 import { TemaService } from './services/tema.service';
 import { TimerService } from './services/timer.service';
+import { FooterComponent } from './pages/footer/footer.component';
+import { PartidaComponent } from './pages/partida/partida.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { TimerService } from './services/timer.service';
     RespuestaListComponent,
     TemaComponent,
     TemaListComponent,
-    TemaResultComponent
+    TemaResultComponent,
+    FooterComponent,
+    PartidaComponent
   ],
   imports: [
     BrowserModule,
