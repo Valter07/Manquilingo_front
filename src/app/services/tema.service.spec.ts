@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { QuizService } from './quiz.service';
+import { TemaService } from './tema.service';
 
-describe('QuizService', () => {
+describe('TemaService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: QuizService = TestBed.get(QuizService);
+    const service: TemaService = TestBed.get(TemaService);
     expect(service).toBeTruthy();
   });
 });

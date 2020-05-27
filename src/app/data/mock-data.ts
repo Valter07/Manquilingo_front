@@ -1,182 +1,182 @@
-import { Quiz } from '../models/quiz';
-import { QuestionType } from '../models/question-type';
+import { Tema } from "../models/tema";
+import { TipoPregunta } from '../models/tipo-pregunta';
 
-const QUESTIONTYPE: QuestionType[] = [
+const TIPOPREGUNTA: TipoPregunta[] = [
     {
         id: 1,
-        name: 'unique answer'
+        nombre: 'unique answer'
     }
 ];
 
-export const QUIZ: Quiz[] = [
+export const TEMA: Tema[] = [
     {
         id: 3,
-        name: 'HTML',
-        description: 'Prueba de conocimiento HTML',
-        questions: [
+        nombre: 'HTML',
+        descripcion: 'Prueba de conocimiento HTML',
+        preguntas: [
             {
                 id: 11,
-                name: '¿Qué significa HTML?',
-                quizId: 3,
-                questionTypeId: 1,
-                answers: [
+                nombre: '¿Qué significa HTML?',
+                temaId: 3,
+                TipoPreguntaId: 1,
+                respuestas: [
                     {
                         id: 33,
-                        name: 'Hyperlinks and Text Markup Language',
-                        questionId: 11,
-                        isAnswer: false,
-                        selected: false
+                        nombre: 'Hyperlinks and Text Markup Language',
+                        IdPregunta: 11,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 34,
-                        name: 'Hyper Text Markup Language',
-                        questionId: 11,
-                        isAnswer: true,
-                        selected: false
+                        nombre: 'Hyper Text Markup Language',
+                        IdPregunta: 11,
+                        isRespuesta: true,
+                        selecionada: false
                     },
                     {
                         id: 35,
-                        name: 'Home Tool Markup Language',
-                        questionId: 11,
-                        isAnswer: false,
-                        selected: false
+                        nombre: 'Home Tool Markup Language',
+                        IdPregunta: 11,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                 ]
             },
             {
                 id: 12,
-                name: '¿Quién está haciendo los estándares web?',
-                quizId: 3,
-                questionTypeId: 1,
-                answers: [
+                nombre: '¿Quién está haciendo los estándares web?',
+                temaId: 3,
+                TipoPreguntaId: 1,
+                respuestas: [
                     {
                         id: 36,
-                        name: 'Mozilla',
-                        questionId: 12,
-                        isAnswer: false,
-                        selected: false
+                        nombre: 'Mozilla',
+                        IdPregunta: 12,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 37,
-                        name: 'The World Wide Web Consortium',
-                        questionId: 12,
-                        isAnswer: true,
-                        selected: false
+                        nombre: 'The World Wide Web Consortium',
+                        IdPregunta: 12,
+                        isRespuesta: true,
+                        selecionada: false
                     },
                     {
                         id: 38,
-                        name: 'Microsoft',
-                        questionId: 12,
-                        isAnswer: false,
-                        selected: false
+                        nombre: 'Microsoft',
+                        IdPregunta: 12,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 39,
-                        name: 'Google',
-                        questionId: 12,
-                        isAnswer: false,
-                        selected: false
+                        nombre: 'Google',
+                        IdPregunta: 12,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                 ]
             },
             {
                 id: 13,
-                name: 'Elija el elemento HTML correcto para el encabezado más grande:',
-                quizId: 3,
-                questionTypeId: 1,
-                answers: [
+                nombre: 'Elija el elemento HTML correcto para el encabezado más grande:',
+                temaId: 3,
+                TipoPreguntaId: 1,
+                respuestas: [
                     {
                         id: 40,
-                        name: '<head>',
-                        questionId: 13,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<head>',
+                        IdPregunta: 13,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 41,
-                        name: '<h6>',
-                        questionId: 13,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<h6>',
+                        IdPregunta: 13,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 42,
-                        name: '<h1>',
-                        questionId: 13,
-                        isAnswer: true,
-                        selected: false
+                        nombre: '<h1>',
+                        IdPregunta: 13,
+                        isRespuesta: true,
+                        selecionada: false
                     },
                     {
                         id: 43,
-                        name: '<heading>',
-                        questionId: 13,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<heading>',
+                        IdPregunta: 13,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                 ]
             },
             {
                 id: 14,
-                name: '¿Cuál es el elemento HTML correcto para insertar un salto de línea?',
-                quizId: 3,
-                questionTypeId: 1,
-                answers: [
+                nombre: '¿Cuál es el elemento HTML correcto para insertar un salto de línea?',
+                temaId: 3,
+                TipoPreguntaId: 1,
+                respuestas: [
                     {
                         id: 44,
-                        name: '<break>',
-                        questionId: 14,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<break>',
+                        IdPregunta: 14,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 45,
-                        name: '<lb>',
-                        questionId: 14,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<lb>',
+                        IdPregunta: 14,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 46,
-                        name: '<br>',
-                        questionId: 14,
-                        isAnswer: true,
-                        selected: false
+                        nombre: '<br>',
+                        IdPregunta: 14,
+                        isRespuesta: true,
+                        selecionada: false
                     }
                 ]
             },
             {
                 id: 15,
-                name: 'Elija el elemento HTML correcto para definir el texto importante',
-                quizId: 3,
-                questionTypeId: 1,
-                answers: [
+                nombre: 'Elija el elemento HTML correcto para definir el texto importante',
+                temaId: 3,
+                TipoPreguntaId: 1,
+                respuestas: [
                     {
                         id: 44,
-                        name: '<i>',
-                        questionId: 15,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<i>',
+                        IdPregunta: 15,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 45,
-                        name: '<b>',
-                        questionId: 15,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<b>',
+                        IdPregunta: 15,
+                        isRespuesta: false,
+                        selecionada: false
                     },
                     {
                         id: 46,
-                        name: '<strong>',
-                        questionId: 15,
-                        isAnswer: true,
-                        selected: false
+                        nombre: '<strong>',
+                        IdPregunta: 15,
+                        isRespuesta: true,
+                        selecionada: false
                     },
                     {
                         id: 46,
-                        name: '<important>',
-                        questionId: 15,
-                        isAnswer: false,
-                        selected: false
+                        nombre: '<important>',
+                        IdPregunta: 15,
+                        isRespuesta: false,
+                        selecionada: false
                     }
                 ]
             }

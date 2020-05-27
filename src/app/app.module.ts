@@ -4,20 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AnswerListComponent } from './pages/answer-list/answer-list.component';
-import { QuizComponent } from './pages/quiz/quiz.component';
-import { QuizListComponent } from './pages/quiz-list/quiz-list.component';
-import { QuizResultComponent } from './pages/quiz-result/quiz-result.component';
-import { QuizService } from './services/quiz.service';
+import { RespuestaListComponent } from './pages/respuesta-list/respuesta-list.component';
+import { TemaComponent } from './pages/quiz/tema.component';
+import { TemaListComponent } from './pages/tema-list/tema-list.component';
+import { TemaResultComponent } from './pages/tema-result/tema-result.component';
+import { TemaService } from './services/tema.service';
 import { TimerService } from './services/timer.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AnswerListComponent,
-    QuizComponent,
-    QuizListComponent,
-    QuizResultComponent
+    RespuestaListComponent,
+    TemaComponent,
+    TemaListComponent,
+    TemaResultComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +25,7 @@ import { TimerService } from './services/timer.service';
     FormsModule
   ],
   providers: [
-    QuizService,
+    TemaService,
     TimerService
   ],
   bootstrap: [

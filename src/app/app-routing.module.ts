@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { QuizListComponent } from './pages/quiz-list/quiz-list.component';
-import { QuizComponent } from './pages/quiz/quiz.component';
-import { QuizResultComponent } from './pages/quiz-result/quiz-result.component';
-import { AnswerListComponent } from './pages/answer-list/answer-list.component';
+import { TemaListComponent } from './pages/tema-list/tema-list.component';
+import { TemaComponent } from './pages/quiz/tema.component';
+import { TemaResultComponent } from './pages/tema-result/tema-result.component';
+import { RespuestaListComponent } from './pages/respuesta-list/respuesta-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
-  { path: '', component: QuizListComponent },
-  { path: 'quiz/:id', component: QuizComponent },
-  { path: 'quiz/:id/results', component: QuizResultComponent },
-  { path: 'quiz/:id/answers', component: AnswerListComponent }
+  { path: '', component: TemaListComponent },
+  { path: 'quiz/:id', component: TemaComponent },
+  { path: 'tema/:id/results', component: TemaResultComponent },
+  { path: 'tema/:id/respuestas', component: RespuestaListComponent }
 ];
 
 @NgModule({
