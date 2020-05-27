@@ -8,7 +8,7 @@ import { RespuestaListComponent } from './pages/respuesta-list/respuesta-list.co
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: '', component: TemaListComponent },
-  { path: 'quiz/:id', component: TemaComponent },
+  { path: 'tema/:id', component: TemaComponent },
   { path: 'tema/:id/results', component: TemaResultComponent },
   { path: 'tema/:id/respuestas', component: RespuestaListComponent }
 ];
