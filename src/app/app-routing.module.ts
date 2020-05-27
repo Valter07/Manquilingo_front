@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TemaListComponent } from './pages/tema-list/tema-list.component';
-import { TemaComponent } from './pages/quiz/tema.component';
+import { TemaComponent } from './pages/tema/tema.component';
 import { TemaResultComponent } from './pages/tema-result/tema-result.component';
 import { RespuestaListComponent } from './pages/respuesta-list/respuesta-list.component';
 
