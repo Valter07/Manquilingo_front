@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 101px;
+        
+    }
+
+.btn-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 40px;
+    
+}
+    
+.titulo{
+    height: 70px;
+    
+}
+
+.tema{
+    padding-top: 80px;
+}
+   
