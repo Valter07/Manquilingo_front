@@ -1,9 +1,30 @@
 .center {
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 100px;
-padding-bottom: 101px;
+    text-align: center;
     
 }
 
+.btn-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -1.5px;
+    width: 485px;
+    
+}
+    
+.titulo{
+    height: 70px;
+    
+}
+
+.centrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    
+    
+}
