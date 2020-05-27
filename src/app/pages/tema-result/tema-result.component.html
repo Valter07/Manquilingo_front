@@ -9,7 +9,7 @@
     <div class="mt-3 d-flex justify-content-center">
       <a [routerLink]="['/tema', tema.id, 'respuestas']" class="btn btn-success">Verificar tus respuestas</a>
         &nbsp;
-      <a href="/temalist" class="btn btn-primary">Regresar al listado de temas</a>
+      <a href="/temalist" onclick="return confirm('¿Estás seguro regresar? ')" class="btn btn-primary">Regresar al listado de temas</a>
     </div>
   </div>
 </div>

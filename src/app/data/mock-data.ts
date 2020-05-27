@@ -8,22 +8,7 @@ const TIPOPREGUNTA: TipoPregunta[] = [
     }
 ];
 
-/**  id: 3,
-        nombre: 'HTML',
-        descripcion: 'Prueba de conocimiento HTML',
-        preguntas: [
-            {
-                id: 11,
-                nombre: '¿Qué significa HTML?',
-                temaId: 3,
-                TipoPreguntaId: 1,
-                respuestas: [
-                    {
-                        id: 33,
-                        nombre: 'Hyperlinks and Text Markup Language',
-                        IdPregunta: 11,
-                        isRespuesta: false,
-                        selecionada: false */
+
 
 export const TEMA: Tema[] = [
     {
