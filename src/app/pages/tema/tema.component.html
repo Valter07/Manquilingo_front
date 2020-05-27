@@ -1,5 +1,5 @@
 <div class="mt-5">
-  <h1>{{ tema.nombre }} Quiz</h1>
+  <h1>Tema: {{ tema.nombre }}</h1>
   <h4>Pregunta {{ paginaPregunta + 1 }} de {{ tema.preguntas.length}}</h4>
   
   <div class="row" *ngFor="let pregunta of preguntasFiltradas; let i = index">
